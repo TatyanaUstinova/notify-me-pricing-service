@@ -8,7 +8,7 @@ from src.models.stores.views import store_blueprint
 
 
 app = Flask(__name__)
-app.config.from_object("config")
+app.config.from_object("src.config")
 app.secret_key = "super - super key"
 
 
